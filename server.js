@@ -21,7 +21,7 @@ dotenv.config({
 connectDB();
 
 //Metodos GET POST PUT DELETE
-app.use('/api/todo/auth', require('./routes/user.js'))
+app.use('/api/todo/auth', require('./routes/user'))
 
 const port = process.env.PORT || 3000;
 
